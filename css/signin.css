@@ -1,0 +1,9 @@
+body {
+    overflow-y: scroll;
+}
+
+.signin{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}

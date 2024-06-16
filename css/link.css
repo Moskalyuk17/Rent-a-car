@@ -1,0 +1,128 @@
+
+
+.filter { grid-area: 1 / 1 / 2 / 2; }
+.car1 { grid-area: 1 / 2 / 2 / 3; }
+.car2 { grid-area: 1 / 3 / 2 / 4; }
+.car3 { grid-area: 1 / 4 / 2 / 5; }
+.car4 { grid-area: 2 / 2 / 3 / 3; }
+.car5 { grid-area: 2 / 3 / 3 / 4; }
+.car6 { grid-area: 2 / 4 / 3 / 5; }
+.car7 { grid-area: 3 / 2 / 4 / 3; }
+.car8 { grid-area: 3 / 3 / 4 / 4; }
+.car9 { grid-area: 3 / 4 / 4 / 5; }
+
+.filter {
+    float: left;
+    margin-top: 10px;
+}
+
+.h3_filter {
+    border-left: 4px solid #4067C9;
+    padding-left: 12px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.filter_form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #4067C9;
+    border-radius: 6px;
+    padding: 10px;
+    align-items: center;
+}
+
+.filter_form button {
+    width: 100%;
+    border: 1px solid #4067C9;
+    background-color: #4067C9;
+    color: #fff;
+    border-radius: 6px;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.filter_form button:hover {
+    scale: 1.1;
+}
+
+.filter_form button:active {
+    scale: .9;
+}
+
+.label_filter {
+    margin-top: 10px;
+    font-family: "Khula", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.descending {
+    margin-top: 10px;
+}
+
+button.medium {
+    border: #747474;
+    background-color: #747474;
+}
+
+button.business {
+    border: none;
+    background-color: #41D250;
+    margin: 10px 0;
+}
+
+button.premium {
+    border: none;
+    background-color: #F1BB2F;
+}
+
+.lease_car {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+}
+
+.lease_car main {
+    display: flex;
+    flex-direction: column;
+}
+
+.info_car {
+    display: flex;
+    justify-content: center;
+}
+
+.fuel {
+    border-left: 1px solid #747474;
+    border-right: 1px solid #747474;
+    margin: 0 6px;
+    padding: 0 6px;
+}
+
+.line {
+    margin: 10px;
+}
+
+.type_car {
+    font-weight: 600;
+}
+
+.rent {
+    border: 1px solid #4067C9;
+    background-color: #4067C9;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.rent:hover{
+    background-color: #fff;
+    color: #4067C9;
+}
+
+.rent:active {
+    scale: .9;
+}

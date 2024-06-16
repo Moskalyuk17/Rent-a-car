@@ -1,0 +1,22 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.info h2{
+    margin-top: 30px;
+    margin-bottom: 6px;
+    color: #4067C9;
+    border-bottom: 1px solid #4067C9;
+}
+
+.info a {
+    color: #4067C9;
+    font-weight: 600;
+}
+
+.footer {
+    margin-top: 128px;
+}
